@@ -1,5 +1,5 @@
 def getChange(n):
-    op = {'2000Rs':0, '1000Rs':0, '500Rs':0, "100Rs":0, "50Rs":0, "20Rs":0, "10Rs":0, "5Rs":0}
+    op = {'2000Rs':0, '1000Rs':0, '500Rs':0, "100Rs":0, "50Rs":0, "20Rs":0, "10Rs":0, "5Rs":0} # Initialize each denominations with 0 count. 
     while n!=0:
         if n>=2000:
             ch1 = n // 2000
